@@ -20,4 +20,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    productFlavors {
+        flavor1 {
+            applicationId 'com.google.zxing.client.android.uat1'
+        }
+
+        flavor2 {
+            applicationId 'com.google.zxing.client.android.uat2'
+        }
+
+        flavor3 {
+            applicationId 'com.google.zxing.client.android.uat3'
+        }
+
+        flavor4 {
+            applicationId 'com.google.zxing.client.android.uat4'
+        }
+    }
 }
